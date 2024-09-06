@@ -1,0 +1,1462 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@1&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap'); */
+#root {
+    background: var(--mainBgcolor);
+}
+
+html {
+    scrollbar-width: none !important;
+    scroll-behavior: smooth !important;
+    overflow-x: hidden !important;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+
+body::-webkit-scrollbar {
+    display: none !important;
+}
+
+:root {
+    /*---------------Start Theme Color----------------  */
+    --topNavBgColor: #00268f;
+    --whiteBg: #ffffff;
+    --mainBgcolor: rgba(255, 255, 255, 0.87);
+    --mainBgcolorDark: #000;
+    --MyDarkGrayBg: #0c0c0c;
+    --lightGrayColor: #201d1d;
+    --grayBgColor: #f3f2f2;
+    --lightBodyBg: #e60c0c;
+    --lightWhite: #eeefef;
+    /*--------------- End Theme Color ----------------  */
+    /* --topNavBgColor: var(--aboutBgColor); */
+    /* --mainBgcolor: #B2CBFF; */
+    --aboutBgColor: #012C57;
+    --darkRed: var(--orangeBG);
+    --texrColorOne: #ffffff;
+    --cardHeadColor: #00268f;
+    --cardHeadColorDark: #00062B;
+    --orangeBG: rgb(221, 1, 1);
+    --orangeTextColor: #ff4500;
+    --my-border: 2px solid rgb(18, 73, 124) !important;
+    --borderColor: 2px solid rgb(18, 73, 124);
+    --gradientBlueBg: linear-gradient(180deg, rgba(9, 9, 121, 1) 0%, rgba(6, 73, 163, 1) 41%, rgb(111, 152, 212) 100%);
+    --d-blue: #00268f;
+    --dark-blue2: #00062B !important;
+    --card-bg: #031E3B;
+    --card-bg2: #012C57;
+    --admHeadColor: rgb(240, 173, 78);
+    --course-bg: #f9d5b0 !important;
+    --computerBgCard: linear-gradient(0deg, #3a4792c2, #232d6b97), url("/images/thumbnails/book.png") center;
+    --BooksBgCard: linear-gradient(0deg, #3a4792c2, #232d6b97), url("/images/thumbnails/pc.jpg") center;
+    --EstablishmentBgCard: linear-gradient(0deg, #3a4792c2, #232d6b97), url("/images/vender/contactBg.png") center;
+    --fbbg: linear-gradient(to right, #efe0f1 2%, #d2ddf7 100%, #e0f1e4 1%);
+    --teamCardBg: rgb(209, 255, 209);
+    --whitesmoke: whitesmoke;
+}
+
+.bgTeamColor {
+    background: rgb(255, 255, 255);
+}
+
+.DarkBlue {
+    background: #00062B;
+}
+
+.darksmoke {
+    background: #34495e;
+}
+
+.DarkBlueText {
+    color: #030b45;
+}
+
+#rightFeatureFinrst li {
+    color: yellow !important;
+}
+
+.fbColor {
+    background: #3b5998 !important;
+}
+
+/* Utility Classes */
+.bg-danger {
+    background: #FF1616 !important;
+}
+
+.bg-voilet {
+    background: #673BB7 !important;
+}
+
+.bg-primary {
+    background: #3d5ee1 !important;
+}
+
+.text-primary {
+    color: #3d5ee1 !important;
+}
+
+.textColorOne {
+    color: #ff4500;
+}
+
+.HindiFont {
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+.transparentTableData {
+    background: transparent !important;
+}
+
+.myshadow {
+    box-shadow: 0 2px 5px -1px rgba(50, 50, 93, .25), 0 1px 3px -1px rgba(0, 0, 0, .3);
+}
+
+.myshadow2 {
+    box-shadow: 2px 2px 8px #88888888;
+}
+
+.smBtn {
+    width: 100px;
+    height: 30px;
+    background-color: #ff0066;
+    border-radius: 4px;
+    border-style: outset;
+    border-left: 1px solid gray;
+    border-top: 1px solid gray;
+    cursor: pointer;
+    color: White;
+}
+
+.hover-btn {
+    cursor: pointer;
+}
+
+.yellow-btn {
+    border-radius: 0 !important;
+    padding: 0.8rem 1rem;
+}
+
+.MainCarousel {
+    margin-top: 5rem !important;
+}
+
+.logo {
+    width: 40px;
+}
+
+.yellow-btn:hover {
+    background-color: rgb(5, 15, 107) !important;
+    transform: translateY(-2px) !important;
+    transition: all 0.2s linear;
+}
+
+.blink {
+    animation: amt 1s linear infinite;
+}
+
+@keyframes amt {
+    100% {
+        color: maroon;
+    }
+}
+
+.hoverTextBlue:hover {
+    color: blue;
+}
+
+.hoverTextOrange:hover {
+    color: orangered;
+}
+
+.text-orange {
+    color: orangered;
+}
+
+.hoverBtn:hover {
+    background-color: rgb(72, 174, 3) !important;
+    transform: translateY(-2px) !important;
+    transition: all 0.2s linear;
+}
+
+.myFlex {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    flex-direction: column !important;
+}
+
+.myFlex2 {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+}
+
+.HeroMargin {
+    margin: 2rem 0;
+}
+
+.myPaddingMargin table td {
+    margin: 10px 2px !important;
+    padding: 10px 2px !important;
+}
+
+/* Dark mode Changer */
+.changer-container .changer-btn {
+    border: none !important;
+    outline: none !important;
+    background: transparent !important;
+
+}
+
+#navbarNav>ul>li>a {
+    padding: 0.6rem 0 !important;
+    font-size: 1rem;
+}
+
+/******top Nav********* */
+#toggleNav {
+    background: var(--topNavBgColor)
+}
+
+.TopWelcomeNavLeft {
+    width: 10%;
+}
+
+.TopWelcomeCenter {
+    width: 75%;
+    font-size: 0.7rem;
+}
+
+
+.nav-link2 {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+#logoImg {
+    width: 2.7rem;
+}
+
+/* Top Nav  */
+.TopWelcomeNavRight {
+    /* width: 55%; */
+    background: green;
+    font-size: 0.9rem;
+}
+
+.myDisplayflexRow .fa-user {
+    font-size: 15px !important;
+}
+
+.TopWelcomeNavRight img {
+    width: 0.8rem !important;
+}
+
+.bgBlur {
+    position: relative;
+    overflow: hidden;
+}
+
+.bgBlur::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.976);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index: -1;
+}
+
+
+/* #TopNavBar{
+    margin-top: 9rem !important;
+} */
+#navbarNav {
+    margin: 1.4rem 0px !important;
+}
+
+#TopNavBar {
+    z-index: 999;
+    margin: 1.01rem 0 0;
+    font-size: 0.9rem !important;
+}
+
+#TopNavBar a {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 1px #000;
+}
+
+#TopNavBar i {
+    padding: 0 4px;
+    font-size: 1.1rem;
+}
+
+/* Mobile Nav  */
+.bi-three-dots-vertical,
+.MobileNavBtn {
+    border: 0 !important;
+    outline: none !important;
+}
+
+#MobileNav {
+    background: var(--orangeBG);
+}
+
+.MobileNav {
+    width: 100%;
+    margin-left: auto;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#studentZoneNav {
+    background: var(--orangeBG);
+}
+
+#CourseListNav {
+    /*background: var(--topNavBgColor */
+    background: var(--orangeBG);
+}
+
+#studentZoneNav a,
+#CourseListNav a {
+    padding: 10px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+#studentZoneNav a:hover,
+#CourseListNav a:hover {
+    color: black !important;
+    text-shadow: none !important;
+}
+
+.my-dropdown-toggle::before {
+    content: none !important;
+}
+
+@media screen and (min-width:768px) {
+    .dropdown:hover .dropdown-menu {
+        display: block !important;
+    }
+}
+
+/* Dark Mode utilities classes */
+
+/*----------Start Dark Gray Classes for Child---------- */
+
+#homeA,
+#homeB,
+#team,
+#timeTable,
+#noticeBg,
+#TestimonialChild,
+#liveCards,
+#liveA,
+#contact,
+#HomeOffer,
+#aboutBg,
+#MissionLeft1,
+#MissionLeft2,
+#MissionRight,
+#Accordion1,
+#MyCardBg,
+#affiliations,
+#counter1,
+#counter2,
+#counter3,
+#counter4,
+#ContactHeader,
+#aboutContact,
+#aboutMap {
+    background: 'var(--whiteBg)';
+}
+
+#branchBgCard {
+    background: 'var(--cardHeadColorDark)';
+}
+
+.whitesmoke {
+    background: var(--whitesmoke);
+}
+
+/*----------Start Gray Classes for Child---------- */
+
+#TopCourseChild,
+#FeatureCard,
+#photoCard {
+    background: 'var(--grayBgColor)';
+}
+
+/*----------End Classes for Child---------- */
+
+/* ______Course section Start______ */
+.cardBoxShadow {
+    /* box-shadow: 0 2px 5px -1px rgba(50, 50, 93, .25), 0 1px 3px -1px rgba(0, 0, 0, .3); */
+    box-shadow: 0 2px 5px -1px rgba(158, 158, 158, 0.25), 0 1px 3px -1px rgba(175, 175, 175, 0.3);
+}
+
+#CourseContainer .card,
+#CourseContainer img {
+    border: none !important;
+    border-radius: 2px !important;
+}
+
+#CourseContainer div {
+    border: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+#CourseContainer b {
+    color: blue;
+}
+
+/* _______About Section_______  */
+#BookCard h1,
+#ComputerCard h1,
+#Establishment h1 {
+    font-size: 4rem !important;
+}
+
+#aboutBgMain {
+    color: black;
+    font-weight: 500;
+}
+
+.MT3 {
+    margin-top: 5.5rem !important;
+}
+
+/*______ Gallary______ */
+.ZoomGallaryPic img {
+    transition: all 0.5s;
+    border-radius: 5px !important;
+}
+
+.ZoomGallaryPic img:hover {
+    transform: scale(1.03);
+    z-index: 999;
+}
+
+.ZoomCard {
+    transition: all 0.5s;
+    border-radius: 5px !important;
+}
+
+.ZoomCard:hover {
+    transform: scale(1.03);
+    z-index: 999;
+}
+
+/* ______Testimonial______  */
+#carouselExampleInterval {
+    background: url("/images/vender/enquiryBg.png") no-repeat;
+    background-size: cover;
+}
+
+/* ______Feature and Updates______ */
+#liveCards .card {
+    border: none !important;
+    font-weight: normal !important;
+}
+
+.showFont {
+    display: none;
+    visibility: hidden;
+}
+
+#openingHour .table>:not(caption)>*>* {
+    color: blue !important;
+}
+
+/*_______ Registation section_______ */
+.rightCardBoys {
+    position: fixed;
+    right: -50px;
+    top: 30%;
+    transform: rotate(-40deg);
+    font-size: 2rem;
+}
+
+#RegistrationContainer {
+    background: linear-gradient(rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8)), url(/images/vender/contactBg.png),
+        no-repeat center center;
+    background-size: cover;
+}
+
+/* #Myform {
+    background: var(--aboutBgColor);
+    border: 2px solid rgba(266, 255, 255, 0.9) !important;
+    backdrop-filter: blur(10px) !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.99) !important;
+} */
+
+.marquee {
+    animation: marquee 30s linear infinite;
+    display: inline-block;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* ______Course Marquee Slider______  */
+#courseMarqueeSlide {
+    width: 100vw !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    z-index: 1;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#courseMarqueeSlide small {
+    border-right: 1px dotted rgb(0, 0, 0);
+    padding: 0 0.5rem !important;
+}
+
+/* _______Feature & Notish Board_______  */
+#FeaturesBackgroundColor1 {
+    background: var(--mainBgcolor);
+}
+
+#openingHour,
+#NotishBoard {
+    border: none !important;
+    box-shadow: 0 2px 2px #777;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    border-radius: 4px !important;
+    color: black;
+}
+
+/* ________Swiper ________ */
+swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px !important;
+    height: 300px !important;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide2 img {
+    display: block;
+    width: 100%;
+}
+
+.swiper-container2 {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide2 {
+    text-align: center;
+    font-size: 18px;
+    background: #29ff34 !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide2 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Start Team section  */
+.bg-team {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.8),
+            rgba(14, 15, 16, 0.933)),
+        url(pic/map2.png); */
+    background-size: cover;
+    background-position: center;
+}
+
+.teamcard .card {
+    background: var(--fbbg);
+
+}
+
+/*   Social Icons  */
+.social-icons {
+    position: fixed;
+    left: 0;
+    font-size: 1.7rem !important;
+    font-weight: normal !important;
+    bottom: 30% !important;
+    z-index: 9999;
+    color: #fff;
+    transition: 0.3s linear;
+}
+
+.social-icons a {
+    margin: 0.2rem 0;
+    display: flex;
+    align-items: center;
+    transition: 0.3s linear;
+    border-radius: 30px !important;
+}
+
+.social-icons a i {
+    padding: 0.2rem;
+    border-radius: 0 2px 2px 0 !important;
+    font-size: 1.7rem;
+}
+
+.social-icons .social-icons-one:hover,
+.social-icons .social-icons-two:hover,
+.social-icons .social-icons-three:hover {
+    cursor: pointer !important;
+    transition: 0.3s linear;
+    width: 180px;
+    padding: 0 0 0 10%;
+    display: flex;
+}
+
+.social-icons .my-fb,
+.social-icons .my-yt,
+.social-icons .my-wp {
+    display: none;
+}
+
+.social-icons a:hover .my-fb,
+.social-icons a:hover .my-yt,
+.social-icons a:hover .my-wp {
+    display: inline;
+}
+
+.social-icons .social-icons-one:hover {
+    background-color: #3d5af8;
+}
+
+.social-icons .social-icons-two:hover {
+    background-color: red;
+}
+
+.social-icons .social-icons-three:hover {
+    background-color: green;
+}
+
+.social-icons .social- #MyFooterColor .HoverIcons i {
+    box-shadow: 2px 2px 0 0 rgba(0, 0, 0, .5) !important;
+    border-color: rgba(0, 0, 0, .2);
+    border-radius: 2px;
+}
+
+.mysearch input {
+    width: 7rem !important;
+}
+
+.my-toast {
+    width: 14rem !important;
+    position: fixed !important;
+    /* bottom:3% !important; */
+    z-index: 999999;
+}
+
+.toast-container {
+    width: 200px !important;
+}
+
+.show-toast {
+    display: none !important;
+}
+
+#btnBackToTop::after {
+    content: '';
+    border-radius: 100%;
+    border: 6px solid #00FFCB;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+}
+
+@keyframes ring {
+    0% {
+        width: 30px;
+        height: 30px;
+        opacity: 1;
+    }
+
+    100% {
+        width: 100px;
+        height: 100px;
+        opacity: 0;
+    }
+}
+
+/* Thuumblain  */
+#thumblain {
+    height: 7rem;
+    background: #00062B;
+}
+
+#thumblain swiper-slide {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    height: 100px !important;
+    width: auto !important;
+    margin: 1rem !important;
+}
+
+#thumblain img {
+    width: 8rem;
+    border: 2px solid white !important;
+    border-radius: 10px !important;
+}
+
+/* footer  */
+footer {
+    margin-bottom: 1.5rem;
+    font-weight: normal;
+}
+
+footer b {
+    color: orange !important;
+}
+
+footer i {
+    font-style: normal !important;
+    font-weight: normal !important;
+}
+
+footer img {
+    width: 1.2rem;
+}
+
+footer td,
+footer li {
+    border: none !important;
+    background: transparent !important;
+    color: white !important;
+    font-size: 0.9rem;
+}
+
+.mytable .ms-1:hover,
+.mytable #address1:hover,
+.mytable #address2:hover {
+    color: rgba(255, 255, 255, 0.802) !important;
+}
+
+/* Admission  */
+/* .mainRegContainer h5{
+    background:rgb(175, 174, 174);
+    padding: 10px;
+    margin: 0 !important;
+} */
+.mainRegContainer label {
+    font-size: 0.9rem;
+}
+
+.mainRegContainer label span {
+    font-size: 0.7rem;
+}
+
+.mainRegContainer label {
+    font-weight: bold;
+}
+
+.validCheck:valid+.icon::after {
+    font-size: 1.5rem;
+    content: '😍';
+}
+
+.validCheck:invalid+.icon::after {
+    font-size: 1.5rem;
+    content: '😳' !important;
+}
+
+form span,
+::placeholder {
+    color: #555 !important;
+    font-size: 0.8rem;
+}
+
+.mainRegContainer i {
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #cbcaca;
+    border-right: none;
+    color: maroon;
+    /* color: #0d6efd; */
+    font-weight: medium !important;
+}
+
+.mainRegContainer input {
+    border-radius: 0 10px 10px 0;
+    border: 1px solid #cbcaca;
+    border-left: none;
+    border-radius: 0;
+}
+
+.mainRegContainer select {
+    border-radius: 0 10px 10px 0 !important;
+    border: 1px solid rgb(198, 198, 198);
+    border-left: none;
+    border-radius: 0;
+}
+
+.contactForm input,
+.contactForm textarea {
+    background: #a9a9a952 !important;
+
+}
+
+.contactForm ::placeholder {
+    color: rgb(136, 136, 136) !important;
+
+}
+
+/* Diploma Course */
+
+#course {
+    background: var(--bg-color4);
+}
+
+#VerificationHeader {
+    position: absolute;
+    left: 50%;
+    top: 5.3rem;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden !important;
+}
+
+#PrintResult table tr th,
+#PrintResult table tr td {
+    padding: 10px !important;
+}
+
+#myDiplomaHeader {
+    box-shadow: 2px 2px 8px #888888 !important;
+    position: fixed;
+    left: 50%;
+    top: 3rem;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+
+#diplomaBody .TopWelcomeNavLeft {
+    width: 5rem;
+}
+
+#diplomaBody {
+    background: var(--body-color);
+}
+
+.table-bordered>:not(caption)>* {
+    color: rgb(97, 97, 97);
+}
+
+#mainContainer {
+    /* color: white !important; */
+    font-size: 1.2rem;
+    box-shadow: 2px 2px 8px #888888;
+    margin-top: 1rem;
+    /* background: white; */
+}
+
+.diplomaTable table th {
+    color: white;
+    background: url("/images/vender/line.gif") !important;
+    background-repeat: repeat-x;
+}
+
+.table-bordered>:not(caption)>* {
+    padding: 0.5rem;
+}
+
+.diplomaTable {
+    font-size: 1rem;
+}
+
+.diplomaTable .my-row-color {
+    font-size: 0.8rem;
+}
+
+.headText {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+/* Language Section  */
+#LanguageContainer table th {
+    background: url("/images/vender/line.gif") !important;
+    color: white;
+}
+
+/* Doeacc Course  */
+#DoeaccCourse td:hover {
+    color: orangered !important;
+}
+
+#DoeaccLeftCourse {
+    height: 650px;
+    overflow-y: scroll !important;
+}
+
+#MainLanguageSection table td,
+.DoeaccCourseContainer .diplomaTable table td {
+    padding: 0.5rem 1rem !important;
+}
+
+#DoeaccCourse span {
+    font-size: 0.8rem;
+}
+
+.DoeaccCourseLeftTable th {
+    color: var(--orangeTextColor);
+}
+
+.DoeaccCourseLeftTable span {
+    color: var(--orangeTextColor);
+}
+
+/* Wev developmet course  */
+#WebLeftCourse {
+    height: 750px;
+    overflow-y: scroll !important;
+}
+
+/* Term & condition */
+#conditions ul li {
+    padding: 10px 0;
+}
+
+.diplomaData .mainContainer table td {
+    padding: 20px !important;
+}
+
+/* Admin pannel  */
+
+#AdminProfile label {
+    font-weight: bolder !important;
+    color: #0033ff;
+}
+
+#adminBodyBgColor {
+    background: #f1f5f9 !important;
+    /* background: var(--grayBgColor); */
+}
+
+#adminHeader {
+    height: 4.5rem !important;
+}
+
+#adminHeader ::placeholder {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+#adminHeader input,
+#adminHeader input:hover {
+    border: none;
+    outline: none;
+}
+
+.accordion-collapse button {
+    margin: 6px 0;
+    background: #d0d9ff;
+}
+
+.accordion-collapse button:hover {
+    margin: 6px 0;
+    background: #0033ff;
+    color: white;
+}
+
+#AdminCard {
+    border-radius: 0 !important;
+}
+
+.DataBsHead {
+    color: rgb(63, 63, 255) !important;
+    text-align: center;
+}
+
+.widget-stat {
+    transition: all .3s;
+}
+
+.widget-stat:hover {
+    transform: translatey(-5px);
+}
+
+.widget-stat .media {
+    display: flex;
+}
+
+.widget-stat .media>span {
+    background: #F5F7FB;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 10px 12px;
+    border: 1px solid #E6E8ED;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #0049f2;
+}
+
+.accordianShadowHover:hover {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+/* Result */
+#printResult .HeaderCenter h1 {
+    font-size: 4em;
+}
+
+#printResult .AllCoursseContent li {
+    list-style-type: none !important;
+    padding: 0 5px;
+}
+
+/* StudentDataBase */
+
+#StudentDataBase tr,
+#StudentDataBase th,
+#StudentDataBase td {
+    padding: 4px !important;
+}
+
+#StudentDataBase thead tbody {
+    padding: 1rem !important;
+}
+
+.stdStatus tr,
+.stdStatus th {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: 0.8rem;
+}
+
+.stdStatus td {
+    padding: 2px 0 0 2px;
+}
+
+#captcha {
+    background: #3D5EE1;
+
+}
+
+.captcha-container {
+    border: 1px dotted maroon;
+    background-size: cover;
+    background-position: center;
+    padding: 0 10px;
+    height: 80%;
+}
+
+.captcha-text {
+    font-family: 'Kotta One', serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 2rem;
+    height: 100%;
+    letter-spacing: 10px;
+    user-select: none;
+}
+
+
+.cardEffectsBorder {
+    border: 2px solid rgba(255, 255, 255, 0.157);
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.cardEffects {
+    background: rgba(255, 255, 255, 0.089);
+    backdrop-filter: blur(10px);
+
+}
+
+/* --------------------- Star PageNot Found --------------------- */
+.BadLine {
+    font-size: 9rem;
+    line-height: 11rem;
+    font-weight: 800;
+    color: #2699fb;
+}
+
+.greatLine {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #2699fb;
+}
+
+.carousel-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* z-index: 1;  */
+}
+
+.accordion-button.active {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.databsimg img {
+    transition: transform 0.3s ease-in-out;
+    z-index: 999;
+}
+
+.databsimg:hover img {
+    border-radius: 0 !important;
+    transform: scale(3);
+}
+
+/* Admission form  */
+/* .chocolateBorder {
+    border: 2px solid #0d6efd !important;
+    padding: 2rem 0;
+} */
+
+.crtfont {
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.scrtawd {
+    color: red;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.scrtspace {
+    word-spacing: 3px;
+}
+
+.letterspc {
+    letter-spacing: 3px;
+}
+
+/* Student form  */
+
+.wrapper {
+    max-width: 400px;
+    min-height: 500px;
+    margin: 3rem auto !important;
+}
+
+.wrapper .myshadow {
+    padding: 20px 30px 30px 30px;
+    border-radius: 15px;
+    background-color: #ecf0f3;
+}
+
+.Stdlogo {
+    width: 80px;
+    margin: auto;
+}
+
+.Stdlogo img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f,
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaa7,
+        -8px -8px 15px #fff;
+}
+
+.wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 10px 15px 10px 10px;
+}
+
+.wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #03A9F4;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1,
+        -3px -3px 3px #fff;
+    letter-spacing: 1.3px;
+}
+
+/* .Examwrapper button{
+  font-size: 1rem !important;  
+} */
+.logoutBtn {
+    box-shadow: 0px 8px 15px -5px rgba(0, 0, 0, 0.75);
+}
+
+.redbtn {
+    background: red !important;
+}
+
+.voilebtn {
+    background: #673BB7 !important;
+}
+
+
+/* Menu btn  */
+.MenuSide {
+    width: 20%;
+    background: #0d6efd;
+}
+
+.StdSide {
+    width: 80%;
+}
+
+.StdSide button {
+    width: 100%;
+}
+
+/* _______________Start Gallary___________________ */
+.Myposition {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gallaryImg img {
+    aspect-ratio: 3/2;
+}
+
+/* _______________End Gallary___________________ */
+
+
+/* _______________Start Gallary___________________ */
+.mcqCode {
+    margin: 5px 0;
+    background: rgb(225, 246, 255);
+
+}
+
+/* _______________Start Student Dashboard__________________________ */
+#myTabStd button {
+    padding: 10px 15px;
+    background: #00062B;
+    color: white;
+}
+
+/* _______________Start Student Data base________________________ */
+.dblue {
+    /* background: rgb(1, 7, 63); */
+    background: rgb(0, 16, 156);
+}
+
+.mshadow {
+    box-shadow: 2px 5px 8px #888888;
+}
+
+.mshadow2 {
+    box-shadow: 1px 2px 3px #a2a1a1;
+}
+
+.mdanger {
+    color: rgb(255, 0, 0);
+}
+
+/* Student dashboard  */
+.student .nav-item {
+    display: inline !important;
+}
+
+.student img {
+    aspect-ratio: 4/4 !important;
+}
+
+.student .fixed-bottom li {
+    transition: all .2s linear;
+}
+
+.student .fixed-bottom li {
+    color: rgb(1, 7, 63);
+}
+
+.student .fixed-bottom li:hover {
+    color: rgb(255, 42, 0);
+}
+
+.student .fixed-bottom a {
+    font-size: 16px;
+}
+
+.Questionpaper span {
+    font-size: 0.8rem !important;
+    padding: 0 4px;
+}
+
+.Questionpaper input,
+.Questionpaper select {
+    font-size: 0.8rem !important;
+}
+
+.maroon {
+    background: rgb(96, 2, 2);
+}
+
+.StudentFooter ul li {
+    list-style-type: none !important;
+}
+
+.StudentFooter a {
+    /* color: maroon; */
+    color: rgb(162, 4, 4);
+}
+
+.dbtext ul li {
+    color: darkblue !important;
+    margin: 1.4rem 5px;
+    font-weight: 600;
+}
+
+.textMaroon {
+    color: rgb(201, 0, 0);
+}
+
+/* _______________End Student Data base________________________ */
+.fbcolor {
+    /* background: linear-gradient(to bottom, #f0f2f5, #e4e6eb);zzzz */
+    background: var(--fbbg);
+    height: 100vh !important;
+    overflow-y: hidden !important;
+}
+
+.fbcolor h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2.4rem;
+}
+
+.fbcolor .logincard input {
+    padding: 10px 20px;
+}
+
+.fbcolor .logincard button {
+    padding: 11px 20px;
+}
+
+.fbcolor .logincard input::placeholder {
+    font-size: 1rem;
+    color: rgb(142, 141, 141) !important;
+}
+
+.smallText {
+    font-size: 0.9rem !important;
+}
+
+
+.card-group .card,
+.hoverCardE {
+    position: relative;
+}
+
+.hoverCardE::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 0;
+    transition: all 0.6s;
+}
+
+.hoverCardE:hover::before {
+    width: 100%;
+    height: 85%;
+    opacity: 1;
+}
+
+
+.hoverCardE .onshow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 1s ease;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.hoverCardE:hover .onshow {
+    opacity: 1;
+}

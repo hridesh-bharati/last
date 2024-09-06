@@ -1,0 +1,227 @@
+@media screen and (max-width:910px) {
+    .TopWelcomeNavLeft {
+        width: 15%;
+    }
+
+    .TopWelcomeNavRight {
+        width: 30%;
+        font-size: 0.9rem;
+    }
+
+    #printResult img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    #printResult .HeaderRight p {
+        font-size: 0.8em;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:768px) {
+
+    /* .cardBoxShadow {
+        box-shadow: 0 2px 5px -1px rgba(50, 50, 93, .25), 0 1px 3px -1px rgba(0, 0, 0, .3);
+    } */
+    #CourseListNav,
+    #studentZoneNav {
+        background: transparent !important;
+    }
+
+    #toggleNav {
+        background: var(--topNavBgColor)
+    }
+
+    #navbarNav .MobileNav {
+        border-radius: 10px;
+    }
+
+    #navbarNav {
+        z-index: 9999;
+        margin: 22px 1px !important;
+        border-radius: 10px;
+    }
+
+    .TopWelcomeNavLeft {
+        width: 15%;
+    }
+
+    #AllStudent {
+        width: 100% !important;
+    }
+
+    .MobileNav li {
+        padding: 0;
+    }
+
+    .MobileNav {
+        margin-left: auto;
+        width: 55%;
+        text-align: left !important;
+        box-shadow: 0 2px 5px -1px rgba(50, 50, 93, .25), 0 1px 3px -1px rgba(0, 0, 0, .3);
+    }
+
+    .MbNav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #studentZoneNav,
+    #CourseListNav {
+        background: transparent;
+    }
+
+    .MobileNav {
+        background: var(--topNavBgColor) !important;
+        box-shadow:0 -2px 10px rgba(3, 35, 66, 0.146);
+    }
+
+
+    /* #carouselExampleAutoplaying img {
+        height: 30vh !important;
+        .TopWelcomeNavLeft {
+            width: 10%;
+        }
+    } */
+    /* Carousel Section  */
+    .MainCarousel {
+        /* padding: 5px !important; */
+        margin: 2.8rem 0 0 0 !important;
+    }
+
+    .MainCarousel img {
+        height: 27vh;
+    }
+
+    .headerImg {
+        margin-top: 1.6rem;
+        height: 2.3rem;
+
+    }
+
+    .stdStatus th {
+        font-size: 0.7rem !important;
+    }
+
+    .stdStatus td {
+        font-size: 0.7rem !important;
+    }
+
+    #printResult .header h1 {
+        font-size: 2.4em;
+    }
+
+    #printResult .header p {
+        font-size: 0.8;
+    }
+
+    #printResult p,
+    #printResult ul li {
+        font-size: 0.9em;
+    }
+
+    #printResult img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .TopWelcomeCenter {
+        font-weight: normal !important;
+        font-size: 0.8rem;
+    }
+
+    .TopWelcomeNavRight {
+        width: 30%;
+        font-size: 0.7rem;
+    }
+
+    #navbarNav ul {
+        padding-bottom: 0.3rem;
+    }
+
+    .hideFont {
+        display: none;
+        visibility: hidden;
+    }
+
+    #AdmForm p {
+        font-size: 1.1rem !important;
+    }
+
+    #AdmForm a {
+        font-size: 0.9rem !important;
+    }
+
+    .showFont {
+        display: block !important;
+        visibility: visible !important;
+        color: rgb(70, 70, 70);
+    }
+
+    .social-icons {
+        display: none !important;
+    }
+
+    .diplomaTable th,
+    #MainLanguageSection table th {
+        font-size: 1rem;
+    }
+
+    .diplomaTable .my-row-color th,
+    #MainLanguageSection .my-row-color th {
+        font-size: 0.6rem;
+    }
+
+    .diplomaTable .container-fluid td,
+    #MainLanguageSection .container-fluid td,
+    .DoeaccCourseContainer .diplomaTable table td {
+        font-size: 0.7rem;
+    }
+
+    .aboutMainImg .MainCarousel img {
+        height: 300px !important;
+    }
+
+    .MT3 {
+        margin-top: 3rem !important;
+    }
+
+    .greatLine {
+        font-size: 2rem;
+        font-weight: 800;
+        color: #2699fb;
+    }
+}
+
+@media screen and (max-width:410px) {
+    .headerImg {
+        margin-top: 1.6rem;
+    }
+
+    #shortContact a {
+        font-size: 13px !important;
+    }
+
+    #BranchTypingText {
+        font-size: 1.1rem !important;
+    }
+
+    #printResult .header h1 {
+        font-size: 0.7em;
+    }
+
+    #printResult p {
+        font-size: 0.4em;
+    }
+
+    #printResult img {
+        max-width: 80%;
+        height: auto;
+    }
+
+}
